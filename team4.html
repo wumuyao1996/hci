@@ -2,23 +2,26 @@
 <head> <link rel="stylesheet" type"text/css" href="team4.css">
 </head>
 <body> 
-  <div> <h1> what would you like to do?
-  </h1>
-  </div>
-  
+  <h1>I Like It A Lot</h1>
+  <div> <h2> what would you like to do?
+  </h2>
+</div>
+
+<div> 
   <div> 
-      <div> 
-        <div class="button"> <a href="food.html"><div><h2>FOOD</h2></div></a>
-        <a href="fun.html"><div><h2>FUN</h2></div></a>
-        </div>
-      </div>
-      <label for=fader>Freetime: </label>
-<input type=range min=0 max=100 value=50 id=fader step=1 onchange="outputUpdate(value)">
+    <div> <a href="food.html"><div><h2 class="food">FOOD</h2></div></a>
+    <a href="fun.html"><div><h2 class="fun">FUN</h2></div></a>
+  </div>
+</div>
+<label>Freetime: </label>
+<input type=range min=0 max=100 value=50 class=vertical orient=vertical id=fader step=1 onchange="outputUpdate(value)">
 <output for=fader id=volume>50</output>
 <script>
-function outputUpdate(vol) {
-document.querySelector('#volume').value = vol;
+  function outputUpdate(vol) {
+  document.querySelector('#volume').value = vol;
 }
 </script>
-  </div>
+</script>
+
+</div>
 </body>

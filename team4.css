@@ -1,15 +1,37 @@
+caption
+{
+	font: italic bold Georgia, serif;
+	font-size: 30;
+	color: red;
+}
+
 html
 {
-	background-color: grey;
-	color: red;
+	background-color: #10E7FB;
+	color: #62471d;
 	vertical-align: middle;
 }
 
 a{
 	color: red;
+
 }
 
-.button
+input.vertical 
+{ -webkit-appearance: slider-vertical; writing-mode: bt-lr; }
+
+.food
 {
 	text-align: middle;
+	background-color: #006872;
+	border-radius: 0 30px 30px 0;
+	padding-left: 30px;
+}
+
+.fun
+{
+	text-align: middle;
+	background-color: #006872;
+	border-radius: 0 30px 30px 0;
+	padding-left: 30px;
 }
