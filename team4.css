@@ -38,13 +38,20 @@ input.vertical
 
 .buttons
 {
-	vertical-align: center;
-	position: absolute;
+
+	padding-top: 20px;
+	float: left;
+	width: 50%;
+
 }
 
 .slider
 {
-	vertical-align: center;
+	float: right;
+	width: 50%;
+	font-size: 20;
+	right: 50px;
+	position: relative;
 }
 .food
 {

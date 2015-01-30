@@ -13,10 +13,10 @@
 		<a href="fun.html"><div><h3 class="fun">FUN</h3></div></a>
 	</div>
 </div>
-<div align="left">
-	<label>Freetime: </label>
+<div class="slider">
+	<h4>Freetime: </h4>
 	<input type=range min=0 max=90 value=15 class=vertical orient=vertical id=fader step=1 onchange="outputUpdate(value)">
-	<output for=fader id=volume>0</output>
+	<output for=fader id=volume>10</output>
 	<script>
 		function outputUpdate(vol) {
 		document.querySelector('#volume').value = vol;
