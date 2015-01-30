@@ -1,3 +1,5 @@
+
+
 caption
 {
 	font: italic bold Georgia, serif;
@@ -12,28 +14,48 @@ h1
 html
 {
 	background-color:#ffff9a;
-	vertical-align: middle;
+	vertical-align: center;
+	text-align: center;
 }
 
 a{
 	color: red;
+	text-decoration: none;
+	font-size: 30;
 
+}
+h2
+{
+	text-decoration: none;
+}
+h3
+{
+	font-size: 30;
 }
 
 input.vertical 
 { -webkit-appearance: slider-vertical; writing-mode: bt-lr; }
 
+.buttons
+{
+	vertical-align: center;
+	position: absolute;
+}
+
+.slider
+{
+	vertical-align: center;
+}
 .food
 {
-	text-align: middle;
 	background-color: #cdff80;
 	border-radius: 0 30px 30px 0;
 	padding-left: 30px;
+	font-size: 30;
 }
 
 .fun
 {
-	text-align: middle;
 	background-color: #006872;
 	border-radius: 0 30px 30px 0;
 	padding-left: 30px;
