@@ -1,5 +1,4 @@
 
-
 caption
 {
 	font: italic bold Georgia, serif;
@@ -41,25 +40,17 @@ input.vertical
 
 	padding-top: 20px;
 	float: left;
-	width: 50%;
+	width: 66%;
 
-}
-.container
-{
-
-	padding: 30px;
-	background-color: #fb9999;
-	border-radius: 25px;
 }
 
 .slider
 {
 	float: right;
-	width: 50%;
+	width: 34%;
 	font-size: 20;
 	right: 50px;
 	position: relative;
-
 }
 .food
 {
@@ -74,4 +65,31 @@ input.vertical
 	background-color: #006872;
 	border-radius: 0 30px 30px 0;
 	padding-left: 30px;
+}
+
+.container
+{
+	width: 100%;
+}
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+    width: 25%;
+}
+
+ul#menu li a {
+    background-color: tan;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+    width: 25%;
+}
+
+ul#menu li a:hover {
+    background-color: silver;
 }
