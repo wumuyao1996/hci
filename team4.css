@@ -44,6 +44,13 @@ input.vertical
 	width: 50%;
 
 }
+.container
+{
+
+	padding: 30px;
+	background-color: #fb9999;
+	border-radius: 25px;
+}
 
 .slider
 {
@@ -52,6 +59,7 @@ input.vertical
 	font-size: 20;
 	right: 50px;
 	position: relative;
+
 }
 .food
 {
