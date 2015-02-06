@@ -13,10 +13,12 @@ html
 	vertical-align: center;
 	text-align: center;
 	font-size: 25;
+
 }
 body
 {
 		background-color:#ffff9a;
+		height: 100%;
 }
 
 a{
